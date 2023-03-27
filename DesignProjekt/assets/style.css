@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Maven+Pro:wght@400;500;700&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#wrapper {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+.logo p {
+    font-family: "Maven Pro";
+    margin-top: 0px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 4.5em;
+    font-family: "Gilda Display";
+}
+
+header {
+    color: white;
+    font-family: "Maven Pro";
+    letter-spacing: 5px;
+}
+
+.logo {
+    width: 300px;
+    height: 250px;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    background: rgb(133,7,225);
+    background: linear-gradient(30deg, rgba(133,7,225,1) 0%, rgba(25,72,148,1) 46%, rgba(61,200,213,1) 100%);
+    padding: 5px;
+    margin-top: 150px;
+}
+
+.logo:hover {
+    background: rgb(7, 94, 225);
+    background: linear-gradient(220deg, rgba(133,7,225,1) 0%, rgba(25,72,148,1) 46%, rgba(61,200,213,1) 100%);
+}
+
+
+section {
+    padding: 40px;
+    margin-top: -10px;
+}
+
+section:nth-of-type(1) {
+    display:grid;
+    background-color: #333;
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: start none;
+}
+
+section:nth-of-type(2) {
+    display:block;
+    width: 100vw;
+    height: 100vh;
+}
+
+section:nth-of-type(2) p {
+margin-bottom: 30px;
+}
+
+ul {
+    float:right;
+    list-style-type: none;
+    line-height: 35px;
+    font-family: "Maven Pro";
+}
+
+nav ul {
+    display: grid;
+    align-content: center;
+    justify-content: end;
+    align-items: center;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.4s all;
+}
+
+li a:hover {
+    color: white;
+    opacity: 1;
+    transition: 0.4s all;
+}
+
+ul li:nth-child(1) {
+    text-transform: uppercase;
+}
+
+section:not(:nth-of-type(1)) {
+padding: 80px 100px 20px 100px;
+background: white;
+width: 100vw;
+height: 100vh;
+scroll-snap-align: start none;
+display: grid;
+justify-content: center;
+align-items: center;
+justify-items: start;
+align-content: center;
+}
+
+h3 {
+    font-size: 3em;
+    font-weight: 900;
+    font-family: "Guilda Display";
+}
+
+section:not(:nth-of-type(1)) article {
+    line-height: 30px;
+    font-size: 1.2em;
+    font-family: "Maven Pro";
+    width: 70%;
+}
+
+section:not(:nth-of-type(1)) p {
+margin-top: 20px;
+}
+
+.sectionphoto {
+    display: block;
+    width:800px;
+    border-radius: 20px;
+}
+
+h3 {
+    margin-top: 20px;
+}

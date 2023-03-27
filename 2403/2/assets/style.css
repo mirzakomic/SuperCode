@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+* {
+    font-family: Montserrat;
+}
+
+*::selection {
+    background:#a020f0;
+    color:#c71585;
+}
+
+p:first-letter {
+    color:#00bfff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p::first-line {
+    color:#483d8b;
+}
+
+h1 {
+    color:green;
+}
+
+h1::before {
+    color: rgb(150, 239, 16);
+    content: "Hi!";
+}
+
+h2 {
+    color:green;
+    font-weight:bold;
+}
+
+h2::after {
+    color:purple;
+    content: "!";
+}

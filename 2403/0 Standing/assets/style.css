@@ -1,0 +1,95 @@
+* {
+    /* margin: 0; */
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.4s all;
+}
+
+section p:last-of-type:first-letter {
+    font-size: 30px;
+    background-color: orange;
+    padding: 10px;
+    line-height: 60px;
+}
+
+section p:first-of-type::first-line {
+    font-size: 30px;
+    background-color: rgb(15, 191, 85);
+    padding: 10px;
+    line-height: 60px;
+}
+
+*::selection {
+    background-color: burlywood;
+    color: red;
+}
+
+*:hover {
+    transition: 0.4s all;
+}
+
+a {
+    color:black;
+}
+
+a:hover {
+    color: red;
+}
+
+article ul {
+    margin-left: 40px;
+}
+
+article li::marker {
+content: "- ";
+}
+
+h2::before {
+    content: "Vortext ";
+    font-size: 40px;
+    color: greeN;
+    border: 1px solid black;
+}
+
+h2::after {
+    content: "Vortext ";
+    font-size: 40px;
+    color: rgb(77, 0, 128);
+    border: 1px solid black;
+}
+
+button {
+    padding: 20px;
+    border: 1px solid rgb(27, 27, 27);
+    background-color: rgb(87, 19, 52);
+    border-radius: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+}
+
+button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+button:hover::after {
+content: " ->";
+transition: 0.4s all;
+}
+
+.neue-klasse {
+    color:pink;
+}
+
+.main-btn {
+    background-color: greeN;
+    color: white;
+    text-decoration:none;
+    padding: 10px 20px 10px 20px;
+}
+
+.main-btn:hover {
+    background-color: black;
+}

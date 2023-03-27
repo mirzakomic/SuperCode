@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+h4 {
+    color:rgb(55, 142, 35);
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius:10px;
+}
+
+span {
+    text-decoration: underline;
+}
+
+span.innertest {
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    padding: 10px;
+    width:100%;
+    height: auto;
+    backdrop-filter: blur(20px);
+}
+
+ol li:first-child {
+    color:red;
+}
+
+ol li:last-child {
+    color:rgb(0, 195, 255);
+}
+
+ol li:nth-child(2) {
+    color:rgb(13, 175, 62);
+}
+
+h4:first-of-type {
+    color:rgb(172, 96, 109);
+}
+
+div {
+    height:100px;
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+div:last-of-type{
+    background-color:aquamarine;
+    background-image: url("https://www.planet-wissen.de/natur/haustiere/hunde/introhundewolfgjpg104~_v-HintergrundL.jpg");
+    background-position: center;
+    background-size:cover;
+    background-repeat:none;
+}
